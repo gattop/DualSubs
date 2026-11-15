@@ -1,0 +1,69 @@
+{
+  "extName": {
+    "message": "Dual Subs",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Show a second, synchronized subtitle in another language on Netflix, Prime Video and Disney+. Great for learning languages.",
+    "description": "Extension description, max 132 characters"
+  },
+  "toggleTitle": {
+    "message": "Turn the second subtitle on or off"
+  },
+  "languageLabel": {
+    "message": "Second subtitle language"
+  },
+  "positionLabel": {
+    "message": "Position"
+  },
+  "positionTop": {
+    "message": "Top"
+  },
+  "positionBottom": {
+    "message": "Bottom"
+  },
+  "sizeLabel": {
+    "message": "Text size"
+  },
+  "trackClosedCaptions": {
+    "message": "(CC)",
+    "description": "Suffix for closed-caption (SDH) tracks"
+  },
+  "trackImageOnly": {
+    "message": "– image-based, not supported",
+    "description": "Suffix for tracks only available as images"
+  },
+  "savedLanguageUnavailable": {
+    "message": "$LANG$ (not available for this title)",
+    "placeholders": {
+      "lang": { "content": "$1", "example": "en" }
+    }
+  },
+  "statusOpenTitle": {
+    "message": "Play a title on Netflix, Prime Video or Disney+ to choose a language."
+  },
+  "statusNotResponding": {
+    "message": "The page is not responding. Reload it (F5). If you just updated the extension, reload the extension first."
+  },
+  "statusWaitingTitle": {
+    "message": "Waiting for the title to load…"
+  },
+  "statusDisabled": {
+    "message": "Second subtitle turned off."
+  },
+  "statusLoading": {
+    "message": "Loading subtitles…"
+  },
+  "statusLoaded": {
+    "message": "$COUNT$ subtitle lines loaded.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "1234" }
+    }
+  },
+  "statusUnavailable": {
+    "message": "This language is not available for the current title."
+  },
+  "statusError": {
+    "message": "Could not download the subtitles. Try reloading the page."
+  }
+}

@@ -1,0 +1,38 @@
+/* Dual Subs - overlay del secondo sottotitolo, inserito nel contenitore del player */
+
+#dual-subs-overlay {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  z-index: 2147483647;
+  pointer-events: none;
+  text-align: center;
+  /* moltiplicatore della dimensione, impostato dal popup (fase 3) */
+  --dual-subs-scale: 1;
+}
+
+#dual-subs-overlay[hidden] {
+  display: none;
+}
+
+#dual-subs-overlay.dual-subs-top {
+  top: 6%;
+}
+
+#dual-subs-overlay.dual-subs-bottom {
+  bottom: 16%;
+}
+
+#dual-subs-overlay .dual-subs-text {
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  border-radius: 0.2em;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-family: "Netflix Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: calc(var(--dual-subs-scale) * clamp(14px, 2.2vw, 44px));
+  font-weight: 500;
+  line-height: 1.3;
+  white-space: pre-line;
+  text-shadow: 0 0 4px #000, 0 0 2px #000;
+}

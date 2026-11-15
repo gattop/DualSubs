@@ -1,0 +1,69 @@
+{
+  "extName": {
+    "message": "Dual Subs",
+    "description": "Nome dell'estensione"
+  },
+  "extDescription": {
+    "message": "Mostra su Netflix, Prime Video e Disney+ un secondo sottotitolo sincronizzato in un'altra lingua. Ideale per le lingue.",
+    "description": "Descrizione dell'estensione, massimo 132 caratteri"
+  },
+  "toggleTitle": {
+    "message": "Attiva o disattiva il secondo sottotitolo"
+  },
+  "languageLabel": {
+    "message": "Lingua del secondo sottotitolo"
+  },
+  "positionLabel": {
+    "message": "Posizione"
+  },
+  "positionTop": {
+    "message": "In alto"
+  },
+  "positionBottom": {
+    "message": "In basso"
+  },
+  "sizeLabel": {
+    "message": "Dimensione del testo"
+  },
+  "trackClosedCaptions": {
+    "message": "(CC)",
+    "description": "Suffisso per le tracce per non udenti"
+  },
+  "trackImageOnly": {
+    "message": "– solo immagini, non supportata",
+    "description": "Suffisso per le tracce disponibili solo come immagini"
+  },
+  "savedLanguageUnavailable": {
+    "message": "$LANG$ (non disponibile per questo titolo)",
+    "placeholders": {
+      "lang": { "content": "$1", "example": "en" }
+    }
+  },
+  "statusOpenTitle": {
+    "message": "Avvia un titolo su Netflix, Prime Video o Disney+ per scegliere la lingua."
+  },
+  "statusNotResponding": {
+    "message": "La pagina non risponde. Ricaricala (F5). Se hai appena aggiornato l'estensione, ricarica prima l'estensione."
+  },
+  "statusWaitingTitle": {
+    "message": "In attesa che il titolo si carichi…"
+  },
+  "statusDisabled": {
+    "message": "Secondo sottotitolo disattivato."
+  },
+  "statusLoading": {
+    "message": "Caricamento dei sottotitoli…"
+  },
+  "statusLoaded": {
+    "message": "$COUNT$ battute caricate.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "1234" }
+    }
+  },
+  "statusUnavailable": {
+    "message": "Questa lingua non è disponibile per il titolo corrente."
+  },
+  "statusError": {
+    "message": "Download dei sottotitoli non riuscito. Prova a ricaricare la pagina."
+  }
+}

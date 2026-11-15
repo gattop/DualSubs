@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dual Subs</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1 data-i18n="extName">Dual Subs</h1>
+    <label class="switch" data-i18n-title="toggleTitle">
+      <input type="checkbox" id="enabled">
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <label class="field">
+    <span data-i18n="languageLabel"></span>
+    <select id="language"></select>
+  </label>
+
+  <div class="field">
+    <span data-i18n="positionLabel"></span>
+    <div class="segmented">
+      <label><input type="radio" name="position" value="top"><span data-i18n="positionTop"></span></label>
+      <label><input type="radio" name="position" value="bottom"><span data-i18n="positionBottom"></span></label>
+    </div>
+  </div>
+
+  <label class="field">
+    <span><span data-i18n="sizeLabel"></span>: <output id="scale-value"></output></span>
+    <input type="range" id="scale" min="0.6" max="2" step="0.1">
+  </label>
+
+  <p id="status" class="status"></p>
+  <p id="version" class="version"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
